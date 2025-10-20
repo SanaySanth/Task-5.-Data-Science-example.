@@ -1,0 +1,49 @@
+
+=========================================================
+      KAIBURR ASSESSMENT - TASK 5 SUMMARY REPORT
+=========================================================
+Author: SANAY_SANTH
+Date: 2025-10-20 11:18:40
+
+---------------------------------------------------------
+I. DATASET OVERVIEW
+---------------------------------------------------------
+- Data Source: 'complaints.csv'
+- Total Records Loaded: 100,000
+- Records with Narrative: 7,625
+
+---------------------------------------------------------
+II. MODEL PERFORMANCE
+---------------------------------------------------------
+                  Model  Accuracy  Training Time (s)
+             Linear SVC  0.904262           0.354018
+    Logistic Regression  0.899016           0.360210
+Multinomial Naive Bayes  0.852459           0.018434
+
+---------------------------------------------------------
+III. BEST MODEL: Linear SVC
+---------------------------------------------------------
+- Overall Accuracy: 0.9043
+- Detailed Report:
+                         precision    recall  f1-score   support
+
+Credit Reporting/Repair       0.92      0.98      0.95      1264
+        Debt Collection       0.78      0.53      0.64       163
+          Consumer Loan       0.74      0.49      0.59        53
+               Mortgage       0.94      0.67      0.78        45
+
+               accuracy                           0.90      1525
+              macro avg       0.85      0.67      0.74      1525
+           weighted avg       0.90      0.90      0.90      1525
+
+
+---------------------------------------------------------
+IV. REQUIREMENTS CHECKLIST
+---------------------------------------------------------
+[✓] 1. Explanatory Data Analysis and Feature Engineering
+[✓] 2. Text Pre-Processing
+[✓] 3. Selection of Multi Classification model
+[✓] 4. Comparison of model performance
+[✓] 5. Model Evaluation
+[✓] 6. Prediction
+=========================================================
